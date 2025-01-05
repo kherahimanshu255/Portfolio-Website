@@ -1,0 +1,91 @@
+body{
+    background-color:#F1FAEE;
+    border-width: 53px;
+    border-style: solid;
+    border-color: #457B9D;
+    margin-left: 48px;
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+}
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#1D3557 ;
+}
+
+#overveiw{
+    font-size: 187.5%;
+    font-weight: lighter ;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+#headertabs{
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.tabs{
+    margin-left: 48px;
+    margin-right: 48px;
+    background-color: #F1FAEE;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.tabs:hover{
+    margin-left: 48px;
+    margin-right: 48px;
+    text-decoration: none;
+    color:rgba(52, 130, 130, 0.393);
+}
+
+.openedtab {
+    margin-left: 48px;
+    margin-right: 48px;
+    text-decoration: none;
+    color:rgba(52, 130, 130, 0.393);
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0px;
+    background-color: #F1FAEE;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: 0px;
+}
+
+#workexcontent, #edcontent, #formcontent{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+#loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #dadad9;
+    border-top: 5px solid #36382e;
+    animation: spin 1s steps(100) 0s infinite normal;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
