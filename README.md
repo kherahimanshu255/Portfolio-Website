@@ -1,0 +1,2 @@
+Portfolio Website: <br>
+My first-ever portfolio website, built with HTML and CSS! It showcases my skills, education, and experiences while helping me revisit and strengthen my web development foundations. Features include a clean, modern design and simple navigation. Feedback is welcome as I plan future improvements!
